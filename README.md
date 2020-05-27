@@ -1,9 +1,9 @@
 TransmissionGraf is a script which provides transmission-daemon info to InfluxDB  
-update TranmissionGraf Folder with your personalized settings for influx and transmission-daemon
+update TranmissionGraf/config.py with your personalized settings for influx and transmission-daemon
 
 you will need to obtain your own 'GeoLite2-City.mmdb' and place it in TranmsissionGraf Folder. 
 https://dev.maxmind.com/geoip/geoip2/geolite2/  
-Currently set to run from Home Dir. Can be configured differently
+Currently set to run from home dir but can be configured differently
 
 Requires remote command line connection to transmission-deamon (with username/password) and influxdb  
 Run TransmissionGraf/TGsetup.sh to install requirements
