@@ -1,4 +1,4 @@
-TransmissionGraf is a script which provides transmission-daemon info to InfluxDB
+TransmissionGraf is a script which provides transmission-daemon info to InfluxDB  
 update TranmissionGraf Folder with your personalized settings for influx and transmission-daemon
 
 you will need to obtain your own 'GeoLite2-City.mmdb' and place it in TranmsissionGraf Folder. 
