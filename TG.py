@@ -179,7 +179,7 @@ for line in lines:
     #print(line) 
     number = str(re.split("\s+", line)[1:2])
     torrentnumber = Numberonly.sub('', number) 
-    Command = "transmission-remote  " + str(config.TransmissionHost) + ":" + str(config.TransmissionPort) + " -n " + str(config.TransmissionUsername) + ":" + str(config.TransmissionPassword) + " -t " + torrentnumber + " -i " + str(config.TransmissionGrafFileinfo)
+    Command = "transmission-remote  " + str(config.TransmissionHost) + ":" + str(config.TransmissionPort) + " -n " + str(config.TransmissionUsername) + ":" + str(config.TransmissionPassword) + " -t " + torrentnumber + " -i > " + str(config.TransmissionGrafFileinfo)
     stream = os.popen(Command)
     #print (stream)
     time.sleep(.2)
